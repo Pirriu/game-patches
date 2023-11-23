@@ -1,0 +1,13 @@
+title_name = "Alien Hominid HD"
+title_id = "58410846"
+hash = "61DE8E42B0394D89" # default.xex
+media_id = "538FC926"
+
+[[patch]]
+    name = "Skip Intro"
+    author = "iTzZ Fenix"
+    is_enabled = true
+
+    [[patch.array]]
+        address = 0x82016c74
+        value = "0x6d656e752e636f6b3600"
